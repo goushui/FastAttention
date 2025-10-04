@@ -1,0 +1,5 @@
+# Baseline Benchmarking
+python benchmark_baseline.py
+
+# Test Minimal FlashAttention Correctness
+python minimal_flash_attention.py
