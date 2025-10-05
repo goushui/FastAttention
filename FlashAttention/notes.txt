@@ -1,0 +1,5 @@
+conda activate P_FlashAttention
+
+benchmark
+- tests pytorch implementation
+- triton Cuda but higher level

@@ -24,6 +24,7 @@ class AttentionProfiler:
         """Profile PyTorch's scaled_dot_product_attention"""
 
         # Create inputs
+        # all (config.batch_size, config.num_heads, config.seq_len, config.head_dim)
         q = torch.randn(config.batch_size, config.num_heads, config.seq_len,
                        config.head_dim, dtype=config.dtype, device=config.device)
         k = torch.randn_like(q)

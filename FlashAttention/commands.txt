@@ -1,5 +1,11 @@
 # Baseline Benchmarking
 python benchmark_baseline.py
 
-# Test Minimal FlashAttention Correctness
+# Test Minimal FlashAttention Correctness (Triton)
 python minimal_flash_attention.py
+
+# Build CUDA Flash Attention Extension
+python setup.py install
+
+# Test CUDA Flash Attention Correctness
+python test_cuda_flash_attention.py
